@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, DM_Mono } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import "./sections.css";
 
@@ -20,7 +21,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${spaceGrotesk.variable} ${dmMono.variable}`}><div className="noise" aria-hidden="true" />{children}</body>
+      <body className={`${spaceGrotesk.variable} ${dmMono.variable}`}>
+        <div className="noise" aria-hidden="true" />
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
