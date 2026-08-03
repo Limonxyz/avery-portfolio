@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Avery Stone — creative developer and digital designer building memorable web experiences.">
+  <meta name="theme-color" content="#0b0d0c">
+  <title>Avery Stone — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Avery Stone home">AS<span class="brand-dot">.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#about">About</a><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+    <div class="header-actions"><button class="theme-toggle" type="button" aria-label="Toggle color theme"><span class="theme-icon">◐</span></button><button class="edit-toggle" type="button" aria-label="Open site editor">Edit site</button><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button></div>
+  </header>
+  <div class="mobile-menu" aria-hidden="true"><nav aria-label="Mobile navigation"><a href="#about"><span>01</span>About</a><a href="#work"><span>02</span>Work</a><a href="#services"><span>03</span>Services</a><a href="#contact"><span>04</span>Contact</a></nav><p>Based in London · Available worldwide</p></div>
+
+  <aside class="editor-panel" aria-hidden="true">
+    <div class="editor-head"><span>Site editor</span><button class="editor-close" type="button" aria-label="Close editor">×</button></div>
+    <p class="editor-note">Changes are saved on this device. Refresh to restore your edits.</p>
+    <label>Your name<input id="edit-name" type="text" value="Avery Stone"></label>
+    <label>Hero role<input id="edit-role" type="text" value="Creative developer & digital designer."></label>
+    <label>About headline<textarea id="edit-about" rows="3">I turn complex ideas into simple, expressive digital experiences.</textarea></label>
+    <label>Accent color<input id="edit-accent" type="color" value="#c9ef67"></label>
+    <label>Hero photo URL<input id="edit-photo" type="url" placeholder="https://images.unsplash.com/..." value=""></label>
+    <label>Contact email<input id="edit-email" type="email" value="hello@averystone.dev"></label>
+    <button class="save-editor" type="button">Save changes</button><button class="reset-editor" type="button">Reset defaults</button>
+  </aside>
+
+  <main>
+    <section class="hero section-shell" aria-labelledby="hero-title"><div class="hero-kicker reveal"><span class="status-dot"></span>Available for select projects · 2026</div><h1 id="hero-title" class="reveal"><span>Creative</span><span class="outline-line">developer <em>&</em></span><span>digital designer.</span></h1><div class="hero-bottom reveal"><p>I shape thoughtful digital experiences where clarity, character, and technology meet.</p><a class="circle-link magnetic" href="#work" aria-label="Explore selected work"><span>Explore<br>work</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12M7 17 18 6"/></svg></a></div><div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div></section>
+    <section class="marquee" aria-label="Skills"><div class="marquee-track"><span>Web Design</span><i>✦</i><span>Creative Development</span><i>✦</i><span>Brand Systems</span><i>✦</i><span>Digital Direction</span><i>✦</i><span>Web Design</span><i>✦</i><span>Creative Development</span><i>✦</i><span>Brand Systems</span><i>✦</i><span>Digital Direction</span><i>✦</i></div></section>
+    <section class="about section-shell" id="about"><div class="section-label reveal"><span>01</span> About</div><div class="about-grid"><div class="portrait-wrap reveal"><div class="portrait-placeholder" role="img" aria-label="Abstract portrait placeholder"><div class="portrait-shape"></div><span>YOUR<br>PHOTO</span></div><span class="image-caption">Avery Stone / Creative Developer</span></div><div class="about-copy"><h2 class="reveal">I turn complex ideas into <span>simple, expressive</span> digital experiences.</h2><div class="about-details reveal"><p>I’m an independent developer and designer focused on crafting distinctive websites for ambitious people and brands.</p><p>With a mix of strategic thinking, visual sensitivity, and clean code, I take ideas from early sketches to polished products.</p></div><a class="text-link reveal" href="#contact">More about me <span>↗</span></a></div></div></section>
+    <section class="work section-shell" id="work"><div class="section-heading reveal"><div class="section-label"><span>02</span> Selected work</div><p>Projects made with care, curiosity,<br>and a little bit of obsession.</p></div><div class="project-list"><article class="project-card project-large reveal"><a href="#contact" aria-label="View Northline Studio project"><div class="project-visual visual-one"><div class="mock-window"><div class="mock-nav"><b>NORTHLINE</b><span>Work &nbsp; About &nbsp; Contact</span></div><div class="mock-title">Spaces made<br>for living.</div><div class="mock-circle"></div></div><span class="project-number">01</span><span class="view-project">View project ↗</span></div><div class="project-meta"><h3>Northline Studio</h3><p>Branding · Web Design</p><span>2026</span></div></a></article><article class="project-card reveal"><a href="#contact" aria-label="View Forma Objects project"><div class="project-visual visual-two"><div class="forma-word">forma</div><div class="object object-a"></div><div class="object object-b"></div><span class="project-number">02</span><span class="view-project">View project ↗</span></div><div class="project-meta"><h3>Forma Objects</h3><p>Art Direction · Development</p><span>2025</span></div></a></article><article class="project-card reveal"><a href="#contact" aria-label="View Serein skincare project"><div class="project-visual visual-three"><div class="bottle"><span>SEREIN</span></div><div class="bottle small"><span>01</span></div><div class="sun-disc"></div><span class="project-number">03</span><span class="view-project">View project ↗</span></div><div class="project-meta"><h3>Serein Skincare</h3><p>Identity · E-commerce</p><span>2025</span></div></a></article></div></section>
+    <section class="services section-shell" id="services"><div class="section-label reveal"><span>03</span> Capabilities</div><div class="services-intro reveal"><h2>How I can help.</h2><p>From first thought to final interaction — a small, focused set of services for meaningful outcomes.</p></div><div class="service-list"><article class="service-item reveal"><span class="service-no">01</span><h3>Creative Direction</h3><p>Concept development, digital strategy, art direction, and visual systems that give brands a distinct point of view.</p><span class="service-mark">↗</span></article><article class="service-item reveal"><span class="service-no">02</span><h3>Web Design</h3><p>Purposeful, responsive interfaces built around strong typography, thoughtful motion, and intuitive user journeys.</p><span class="service-mark">↗</span></article><article class="service-item reveal"><span class="service-no">03</span><h3>Development</h3><p>Fast, accessible, and maintainable front-end builds that translate design ideas into fluid digital experiences.</p><span class="service-mark">↗</span></article></div></section>
+    <section class="quote-section"><blockquote class="reveal">“Design is not decoration.<br>It’s how an idea <em>feels</em><br>when you meet it.”</blockquote><div class="quote-shape" aria-hidden="true"></div></section>
+    <section class="contact section-shell" id="contact"><div class="section-label reveal"><span>04</span> Contact</div><div class="contact-main reveal"><p>Have a project in mind?</p><a class="email-link" href="mailto:hello@averystone.dev">Let’s make<br><span>something great.</span></a></div><div class="contact-footer"><div><span class="footer-label">Say hello</span><a href="mailto:hello@averystone.dev">hello@averystone.dev</a></div><div><span class="footer-label">Social</span><a href="#contact">Instagram ↗</a><a href="#contact">LinkedIn ↗</a><a href="#contact">Dribbble ↗</a></div><div><span class="footer-label">Local time</span><span id="local-time">London · 12:00 PM</span></div><a class="back-top" href="#top" aria-label="Back to top">↑</a></div><div class="footer-wordmark" aria-hidden="true">AVERY</div></section>
+  </main>
+</body>
+</html>
