@@ -18,25 +18,25 @@ export type Skill = { name: string; level: number };
 
 export const siteData = {
   personal: {
-    name: "Avery Stone",
-    title: "Creative Developer & Web3 Storyteller",
+    name: "Li M ON || WEB3",
+    title: "Creative Ambassador & Web3 Storyteller",
     bio: "I build digital worlds where sharp strategy, expressive design, and emerging technology move as one. My work helps ambitious products feel impossible to ignore.",
     avatar: "/images/avatar.svg",
     resume: "/resume.pdf",
-    email: "hello@averystone.dev",
-    phone: "+44 20 7946 0321",
-    location: "London, United Kingdom",
-    timezone: "Europe/London",
+    email: "mdlimonurrahman5@gmail.com",
+    phone: "+8801967086940",
+    location: "Mymensingh, Bangladesh",
+    timezone: "Dhaka GMT+6",
     availability: "Available for selected collaborations",
   },
   social: {
-    twitter: "https://x.com/",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    telegram: "https://t.me/",
-    discord: "https://discord.com/",
-    youtube: "https://youtube.com/",
-    website: "https://example.com/",
+    twitter: "https://x.com/LimonurMd/",
+    github: "https://github.com/Limonxyz/",
+    linkedin: "https://www.linkedin.com/in/md-limonur-rahman-8831a5249/",
+    telegram: "https://t.me/Limon_xyz",
+    discord: "https://discord.gg/3eRHztcbrk",
+    youtube: "https://www.youtube.com/@LimonEarning",
+    telegramChannel: "https://t.me/LimonEarningChannel/",
   },
   theme: {
     primary: "#a6ff4d",
@@ -44,19 +44,20 @@ export const siteData = {
     background: "#070807",
     accent: "#f4f6ef",
   },
-  hero: {
-    eyebrow: "Independent creative technologist · 2026",
-    headline: "Ideas with signal. Experiences with gravity.",
-    subheadline: "I design and develop cinematic digital experiences for Web3 teams, culture-shaping brands, and the people building what comes next.",
-    ctaPrimary: "Explore my work",
-    ctaSecondary: "Start a project",
-    orbitText: "CREATIVE • CODE • CULTURE • WEB3 • ",
-  },
-  about: {
-    eyebrow: "The human behind the pixels",
-    headline: "Not just another developer. A creative partner for the whole journey.",
-    bioSecondary: "For the last six years, I have worked across design, code, content, and community—turning complex ideas into clear digital stories. I care about the tiny interactions because they shape the big feeling.",
-  },
+ hero: {
+  eyebrow: "Crypto Ambassador • Community Manager • Moderator",
+  headline: "Building Communities That Move Web3 Forward.",
+  subheadline: "I help Web3 projects grow through community management, moderation, content, and authentic community engagement.",
+  ctaPrimary: "View My Work",
+  ctaSecondary: "Let's Connect",
+  orbitText: "WEB3 • COMMUNITY • CRYPTO • GROWTH •",
+},
+
+about: {
+  eyebrow: "The Community Behind Web3",
+  headline: "More Than Just a Moderator. A Community Builder.",
+  bioSecondary: "I work with Web3 and crypto communities across ambassador programs, community management, moderation, and content. My focus is building stronger communities, maintaining meaningful engagement, and helping projects create a lasting presence.",
+},
   projects: [
     {
       title: "Neon Protocol",
