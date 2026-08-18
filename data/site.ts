@@ -21,7 +21,7 @@ export const siteData = {
     name: "Li M ON || WEB3",
     title: "Creative Ambassador & Web3 Storyteller",
     bio: "I build digital worlds where sharp strategy, expressive design, and emerging technology move as one. My work helps ambitious products feel impossible to ignore.",
-    avatar: "/images/avatar.png",
+    avatar: "/images/Avatar (2).svg",
     resume: "/resume.pdf",
     email: "mdlimonurrahman5@gmail.com",
     phone: "+8801967086940",
